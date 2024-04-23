@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 0px !important;
+}
+.margin-left{
+  margin-right: 10px;
+}
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+.cream-color {
+  background-color: #ECBC76;
+  height: 100vh;
+}
+
+.sign-in-Form {
+  background-color: white;
+  width: 30vw;
+  padding: 30px;
+  border-radius: 20px;
+  /* margin: auto; */
+  height: 100%;
+  margin-top: auto;
+}
+
+.welcome-text>p {
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+}
+
+.welcome-text>h3 {
+  font-size: 55px;
+  font-family: "poppins";
+  font-weight: 500;
+  color: black;
+}
+
+.welcome-text-2>p:nth-child(1),
+p:nth-child(2) {
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+}
+
+p:nth-child(2) {
+  color: orange;
+  cursor: pointer;
+}
+
+.input-email,
+.input-pass {
+  width: 98% !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.enter-value>::placeholder {
+  padding: 0px 0px 0px 15px;
+}
+
+.enter-value>label {
+  font-size: 16px;
+  margin: 20px 0px 10px 0px;
+}
+
+.enter-value>p {
+  font-size: 16px;
+  color: red;
+  margin: 20px 0px 0px 0px;
+}
+
+.sign-in-Form>p {
+  font-size: 16px;
+  color: gray;
+  margin: 20px 0px 0px 0px;
+}
+
+.enter-value>input[type=button] {
+  background-color: rgb(255, 166, 0);
+  border: none;
+  padding: 10px 0px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.enter-value>button {
+  background-color: rgb(255, 166, 0);
+  border: none;
+  padding: 10px 0px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.social-group>img:nth-child(1) {
+  background-color: blue;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.social-group>img:nth-child(2) {
+  background-color: black;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 0px 0px 0px 20px;
+}
+
+.sign-google {
+  margin-left: 5px;
+}
+
+.user-contact {
+  margin: 0px 0px 10px 0px;
+}
+
+.logout-btn>button {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0px 10px;
+  font-size: 20px;
+  color: black;
+  margin: 0px 0px 10px 0px;
+}
+
+.enter-value>span {
+  color: red;
+}
+
+/* Error Handling */
+.message,
+.message2,
+.message3,
+.message4 {
+  margin: 0px 0px 0px 0px !important;
+}
+
+.alerts {
+  color: red;
+  font-size: 15px !important;
+  margin: 5px 0px 0px 0px !important;
+}
+
+.pagination {
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  border: none;
+}
+
+input[type=number] {
+  width: 20%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.serach-btn {
+  padding: 2px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: rgb(62, 59, 59);
+  color: white;
+}
+
+.serach-btn:hover {
+  background-color: gray;
+  color: white;
+  transition: 0.5s;
+}
+
+.pagination {
+  gap: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pagination .page-num {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+.pagination .page-num:hover {
+  background-color: #5AB1BB;
+  color: #fff;
+}
+
+.pagination .active {
+  background-color: #5AB1BB;
+}
+
+.add-new-item{
+  background-color: rgb(223, 219, 219);
+  border: none;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+.enter-aliment,.enter-title>label{
+  font-size: 18px;
+  font-family: "Popins";
+}
+
+.enter-aliment>input[type=text]{
+  /* padding: 5px ; */
+  width: 50%;
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: 1px solid gray;
+}
+
+.enter-aliment>::placeholder {
+  padding: 0px 0px 0px 5px;
+}
+.submit-icon{
+  margin: 0px 10px 0px 0px;
+}
+.update-icon{
+  border: 2px solid black;
+  padding: 8px;
+  font-size: 35px !important;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+}
+.update-icon:hover{
+  border: 2px solid green !important;
+  color: green;
+}
+.delete-icon{
+  border: 2px solid black;
+  padding: 8px;
+  font-size: 35px !important;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+}
+.delete-icon:hover{
+  border: 2px solid red !important;
+  color: red;
+}
+.delete-page-icon{
+  color: red;
+  font-size: 70px;
+}
+.delete-button{
+  background-color: red;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  font-weight: 600;
+}
+.cancel-button{
+  background-color: transparent;
+  font-weight: 600;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+}
+.delete-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+}
+.delete-para{
+  font-size: 20px;
+  margin: 0px 0px 20px 0px !important;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .sign-in-Form {
+    width: 50vw;
+  }
+
+  .welcome-text,
+  .welcome-text-2 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .welcome-text>h3 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 998px) and (min-width: 768px) {
+  .extra-img>img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 0px) {
+  .sign-in-Form {
+    width: 90vw;
+  }
+
+  .welcome-text,
+  .welcome-text-2 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .welcome-text>h3 {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .extra-img>img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 435px) and (min-width: 0px) {
+  .welcome-text>p {
+    font-size: 13px;
+  }
+
+  .welcome-text-2>p:nth-child(1),
+  p:nth-child(2) {
+    font-size: 13px;
+  }
+
+  .enter-value>label {
+    font-size: 14px;
+    margin: 20px 0px 10px 0px;
+  }
+
+  .enter-value>p {
+    font-size: 15px;
+    color: red;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .sign-in-Form>p {
+    font-size: 14px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .social-group>img:nth-child(1) {
+    padding: 5px;
+    border-radius: 50%;
+  }
+
+  .social-group>img:nth-child(2) {
+    padding: 5px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 10px;
+  }
+
+  .sign-google {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+}
